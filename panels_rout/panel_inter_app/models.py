@@ -11,4 +11,4 @@ class Panel_Inter(models.Model):
 class Schedule_Inter(models.Model):
     name = models.CharField(max_length=30)
     date = models.CharField(max_length=10)
-    change_history = models.CharField(max_length=20)
+#    change_history = models.CharField(max_length=20)
